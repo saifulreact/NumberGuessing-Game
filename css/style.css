@@ -1,0 +1,95 @@
+body{
+ 
+    background: #C9DABF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.main{
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 4px solid red;
+    padding: 20px;
+    gap: 6px;
+    
+}
+.player_one_input{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    border: 3px solid red;
+    text-align: center;
+   
+    font-size: 30px;
+    font-weight: 800;
+    color: blanchedalmond;
+    margin-bottom: 10px;
+
+
+}
+.player_one_button{
+    width: 100%;
+    height: 30px;
+    background: wheat;
+    border-radius: 20px;
+    outline: none;
+
+ 
+   
+   
+}
+
+.error{
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+}
+.show{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+.player_one_button:active{
+    transform: scale(1.1);
+}
+
+
+/* ================= player_two part start ============================== */
+.player_two_input{
+    width: 100%;
+    height: 40px;
+    background: whitesmoke;
+    border-radius: 30px;
+    outline: none;
+    border: 3px solid red;
+    text-align: center;
+   
+    font-size: 30px;
+    font-weight: 800;
+    color: blanchedalmond;
+    margin-bottom: 10px;
+   
+
+    
+
+
+}
+.player_two_button{
+    width: 100%;
+    height: 30px;
+    background: transparents;
+    border-radius: 20px;
+    outline: none;
+}
+.player_two{
+    display: none;
+}
+.player_two_button:active{
+    transform: scale(1.1);
+}
